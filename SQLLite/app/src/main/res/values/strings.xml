@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SQL Lite</string>
+    <string name="CustomerName">Name</string>
+    <string name="Age">Age</string>
+    <string name="ActiveCustomer">Active</string>
+    <string name="ButtonViewAll">View All</string>
+    <string name="Add">Add</string>
 </resources>
