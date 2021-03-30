@@ -1,4 +1,4 @@
-package database;
+package com.example.sqllite;
 
 public class CustomerModel {
     private String name;
