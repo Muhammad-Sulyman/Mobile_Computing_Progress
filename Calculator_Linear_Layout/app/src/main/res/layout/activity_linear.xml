@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="91dp"
         android:gravity="right"
-        android:inputType="numberSigned|number|numberDecimal"
+        android:text=""
         android:textSize="50sp" />
 
     <LinearLayout
