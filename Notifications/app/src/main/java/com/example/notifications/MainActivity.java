@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //createNotificationChannel();
+        createNotificationChannel();
         createNotification();
     }
     
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setAutoCancel(true)
                 .setStyle(new NotificationCompat.BigTextStyle().bigText("Simple notifciatoin for learing"));
-                //.setContentIntent(pendingIntent);
+                .setContentIntent(pendingIntent);
 
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(this);
         notificationManagerCompat.notify(NOTIFICATION_ID,builder.build());
