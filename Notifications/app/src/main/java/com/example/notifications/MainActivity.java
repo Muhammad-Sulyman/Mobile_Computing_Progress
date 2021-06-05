@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public  void createNotification(){
-        //Intent intent = new Intent(this, NotificationCompat.NotificationVisibility.class);
-        //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        //PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent,0);
+        Intent intent = new Intent(this, NotificationCompat.NotificationVisibility.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent,0);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this,CHANNEL_ID)
                 .setSmallIcon(R.drawable.small_icon)
