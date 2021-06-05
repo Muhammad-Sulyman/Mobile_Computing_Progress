@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 .setContentTitle("This is title of Notification")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setAutoCancel(true)
-                .setStyle(new NotificationCompat.BigTextStyle().bigText("Simple notifciatoin for learing"));
+                .setStyle(new NotificationCompat.BigTextStyle().bigText("Simple notifciatoin for learing"))
                 .setContentIntent(pendingIntent);
 
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(this);
